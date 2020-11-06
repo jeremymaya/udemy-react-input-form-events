@@ -87,3 +87,56 @@ The above controlled element has the following flow:
 3. We call setState with the new value
 4. Component renders
 5. Input is told what its value is (coming from state)
+
+### Understanding `this` In Javascript
+
+* What is `this` used for in a class?
+  * `this` refers back to the class itself
+* How is the value of `this` determined in a function?
+  * the value of `this` is is the instance of the function?
+
+Below code results an error as `this` refers to an undefined object.
+
+```javascript
+...
+    onFormSubmit(e) {
+        e.preventDefault();
+        console.log(this.state.term);
+    }
+
+    render() {
+        return (
+            <div className="ui segment">
+                <form onSubmit={this.onFormSubmit} className="ui form">
+...
+```
+
+Below code blocks fixes the undefined object error by using Arrow Function.
+
+```javascript
+...
+    onFormSubmit = e => {
+        e.preventDefault();
+        console.log(this.state.term);
+    }
+
+    render() {
+        return (
+            <div className="ui segment">
+                <form onSubmit={this.onFormSubmit} className="ui form">
+...
+```
+
+```javascript
+...
+    onFormSubmit() {
+        e.preventDefault();
+        console.log(this.state.term);
+    }
+
+    render() {
+        return (
+            <div className="ui segment">
+                <form onSubmit={e => this.onFormSubmit(e)} className="ui form">
+...
+```
