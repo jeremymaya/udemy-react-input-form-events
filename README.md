@@ -140,3 +140,11 @@ Below code blocks fixes the undefined object error by using Arrow Function.
                 <form onSubmit={e => this.onFormSubmit(e)} className="ui form">
 ...
 ```
+
+### Communicating Child to Parent
+
+Props can be only passed down.
+
+Convert App component into a class based component.
+
+SearchBar invokes a callback to App component to pass the search term
