@@ -148,3 +148,21 @@ Props can be only passed down.
 Convert App component into a class based component.
 
 SearchBar invokes a callback to App component to pass the search term
+
+### Fetching Data
+
+AJAX request, network request, to Unsplash API
+which will send back a JSON record
+
+unsplash
+
+### Axios vs Fetch
+
+axios - standard alone 3rd party package
+
+fetch - function built into modern browsers
+
+Since fetch is a built in function, amount of code being sent is to a browser is slightly smaller than the axios when making an HTTP request
+fetch is more basic and lower level than Axios
+
+// go over the note again and commit
