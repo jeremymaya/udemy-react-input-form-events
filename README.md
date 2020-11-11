@@ -151,18 +151,13 @@ SearchBar invokes a callback to App component to pass the search term
 
 ### Fetching Data
 
-AJAX request, network request, to Unsplash API
-which will send back a JSON record
-
-unsplash
+The app makes a AJAX request, network request, to [Unsplash API](https://unsplash.com/developers) which will send back a JSON record.
 
 ### Axios vs Fetch
 
-axios - standard alone 3rd party package
+For this app, we will be using Axios. There are different AJAX clients we can use to make web requests.
 
-fetch - function built into modern browsers
+* Axios - standard alone 3rd party package
+* Fetch - function built into modern browsers
 
-Since fetch is a built in function, amount of code being sent is to a browser is slightly smaller than the axios when making an HTTP request
-fetch is more basic and lower level than Axios
-
-// go over the note again and commit
+Since Fetch is a built in function, amount of code being sent is to a browser is slightly smaller than the Axios when making an HTTP request. However, Fetch is more basic and lower level than Axios and may not have all the needed features.
