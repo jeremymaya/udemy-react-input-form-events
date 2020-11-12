@@ -161,3 +161,19 @@ For this app, we will be using Axios. There are different AJAX clients we can us
 * Fetch - function built into modern browsers
 
 Since Fetch is a built in function, amount of code being sent is to a browser is slightly smaller than the Axios when making an HTTP request. However, Fetch is more basic and lower level than Axios and may not have all the needed features.
+
+### Handling Requests with Async Await
+
+Whenever we make a request with Axios, it returns an object called Promise. A Promise is an object that will give us a notification when some amount of work is completed. 
+
+To get the notification, there are two ways to handle asynchronous call:
+
+1. `.then()`
+2. `async` and `await`
+
+---
+
+## Credits
+
+* [GitHub - dotenv](https://github.com/motdotla/dotenv)
+* [Stackoverflow - Can't access variable key inside .env (dotenv package React)](https://stackoverflow.com/questions/54169021/cant-access-variable-key-inside-env-dotenv-package-react)
