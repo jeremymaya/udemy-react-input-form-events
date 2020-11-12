@@ -1,6 +1,6 @@
 import '../env';
 import React from 'react';
-import axios from 'axios';
+import unsplash from '../api/unsplash';
 import SearchBar from './SearchBar'
 
 class App extends React.Component {
@@ -11,13 +11,8 @@ class App extends React.Component {
     // callback function
     // converted into an arrow function to bind the callback
     onSearchSubmit = async (term) => {
-        const response = await axios.get('https://api.unsplash.com/search/photos', {
-            params: {
-                query: term
-            },
-            headers: {
-                Authorization: `Client-ID ${process.env.REACT_APP_UNSPLASH_ACCESS_KEY}`
-            }
+        const response = await unsplash.get('/search/photos', {
+            params: { query: term }
         });
 
         this.setState({ images: response.data.results });
