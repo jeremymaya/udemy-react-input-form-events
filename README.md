@@ -173,6 +173,35 @@ To get the notification, there are two ways to handle asynchronous call:
 
 ---
 
+## Review of Map Statement
+
+```javascript
+// for loop statement which iterates over an array
+
+const numbers = [ 0, 1 , 2, 3, 4];
+
+let newNumbers = [];
+
+for (let i = 0; i < numbers.length; i++) {
+  newNumbers.push(numbers[i] * 10);
+}
+
+console.log(numbers);
+console.log(newNumbers);
+
+// above operation did not mutate the original array values from numbers
+
+// a mapping statement which iterate over an array and return a brand new array
+
+let mapNumbers = numbers.map(num => num * 10)
+
+console.log(numbers);
+console.log(mapNumbers);
+
+```
+
+---
+
 ## Credits
 
 * [GitHub - dotenv](https://github.com/motdotla/dotenv)
