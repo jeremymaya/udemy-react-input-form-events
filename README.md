@@ -1,6 +1,6 @@
 # udemy-react-input-form-events
 
-![Action Status](https://github.com/jeremymaya/https://jeremymaya.github.io/udemy-react-input-form-events/workflows/build/badge.svg)
+![Action Status](https://github.com/jeremymaya/udemy-react-input-form-events/workflows/build/badge.svg)
 
 Author: Kyungrae Kim
 
