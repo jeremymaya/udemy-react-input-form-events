@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/udemy-react-input-form-events/settings/secrets/actions/static/js/main.ffcab149.chunk.js",
+    "main.js.map": "/udemy-react-input-form-events/settings/secrets/actions/static/js/main.ffcab149.chunk.js.map",
+    "runtime-main.js": "/udemy-react-input-form-events/settings/secrets/actions/static/js/runtime-main.2deed038.js",
+    "runtime-main.js.map": "/udemy-react-input-form-events/settings/secrets/actions/static/js/runtime-main.2deed038.js.map",
+    "static/js/2.cb74de12.chunk.js": "/udemy-react-input-form-events/settings/secrets/actions/static/js/2.cb74de12.chunk.js",
+    "static/js/2.cb74de12.chunk.js.map": "/udemy-react-input-form-events/settings/secrets/actions/static/js/2.cb74de12.chunk.js.map",
+    "index.html": "/udemy-react-input-form-events/settings/secrets/actions/index.html",
+    "static/js/2.cb74de12.chunk.js.LICENSE.txt": "/udemy-react-input-form-events/settings/secrets/actions/static/js/2.cb74de12.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2deed038.js",
+    "static/js/2.cb74de12.chunk.js",
+    "static/js/main.ffcab149.chunk.js"
+  ]
+}
