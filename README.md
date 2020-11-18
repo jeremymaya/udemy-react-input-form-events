@@ -164,7 +164,7 @@ Since Fetch is a built in function, amount of code being sent is to a browser is
 
 ### Handling Requests with Async Await
 
-Whenever we make a request with Axios, it returns an object called Promise. A Promise is an object that will give us a notification when some amount of work is completed. 
+Whenever we make a request with Axios, it returns an object called Promise. A Promise is an object that will give us a notification when some amount of work is completed.
 
 To get the notification, there are two ways to handle asynchronous call:
 
@@ -199,6 +199,12 @@ console.log(numbers);
 console.log(mapNumbers);
 
 ```
+
+---
+
+## The Purpose of Keys in Lists
+
+The purpose of keys in Lists is a performance consideration which helps React render lists or updates to lists to be more precise efficiently.
 
 ---
 
