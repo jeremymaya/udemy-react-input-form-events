@@ -2,7 +2,7 @@
   "name": "pics",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jeremymaya.github.io/udemy-react-input-form-events/settings/secrets/actions",
+  "homepage": "https://jeremymaya.github.io/udemy-react-input-form-events",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
