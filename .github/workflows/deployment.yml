@@ -23,7 +23,8 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-
+    
+    # Source: https://stackoverflow.com/questions/61117865/how-to-set-environment-variable-in-node-js-process-when-deploying-with-github-ac
     - name: Create env file
       run: |
         touch .env
