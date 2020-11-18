@@ -1,5 +1,11 @@
 # udemy-react-input-form-events
 
+![Action Status](https://github.com/jeremymaya/udemy-react-input-form-events/workflows/build/badge.svg)
+
+Author: Kyungrae Kim
+
+Deployed App: <https://jeremymaya.github.io/udemy-react-input-form-events>
+
 ---
 
 ## Overview
@@ -212,3 +218,4 @@ The purpose of keys in Lists is a performance consideration which helps React re
 
 * [GitHub - dotenv](https://github.com/motdotla/dotenv)
 * [Stackoverflow - Can't access variable key inside .env (dotenv package React)](https://stackoverflow.com/questions/54169021/cant-access-variable-key-inside-env-dotenv-package-react)
+* [Stackoverflow - How to set environment variable in node.js process when deploying with github action](https://stackoverflow.com/questions/61117865/how-to-set-environment-variable-in-node-js-process-when-deploying-with-github-ac)
