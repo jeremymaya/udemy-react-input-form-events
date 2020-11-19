@@ -214,6 +214,30 @@ The purpose of keys in Lists is a performance consideration which helps React re
 
 ---
 
+## Accessing the DOM with Refs
+
+1. Let the ImageCard render itself and its image
+2. Reach into the DOM and figure out the height of the image
+3. Set the image height on state to get the components to rerender
+4. When rerendering, assign a `grid-row-end` to make sure the image takes up the appropriate space
+
+Tradional way of accessing a DOM element
+
+```javascript
+document.querySelector('img');
+
+document.querySelector('img').clientHeight;
+```
+
+React way of accessing a DOM element - `ref`
+
+React Refs
+
+* Gives access to a single DOM element
+* We create a refs in the constructor, assign them to instance variables, then pass to a particular JSX element as props
+
+---
+
 ## Credits
 
 * [GitHub - dotenv](https://github.com/motdotla/dotenv)
