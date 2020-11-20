@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/udemy-react-input-form-events/static/css/main.e82c857d.chunk.css",
-    "main.js": "/udemy-react-input-form-events/static/js/main.43514f51.chunk.js",
-    "main.js.map": "/udemy-react-input-form-events/static/js/main.43514f51.chunk.js.map",
+    "main.css": "/udemy-react-input-form-events/static/css/main.a4fca6e6.chunk.css",
+    "main.js": "/udemy-react-input-form-events/static/js/main.bfc6d100.chunk.js",
+    "main.js.map": "/udemy-react-input-form-events/static/js/main.bfc6d100.chunk.js.map",
     "runtime-main.js": "/udemy-react-input-form-events/static/js/runtime-main.c1a0ed15.js",
     "runtime-main.js.map": "/udemy-react-input-form-events/static/js/runtime-main.c1a0ed15.js.map",
     "static/js/2.da51721a.chunk.js": "/udemy-react-input-form-events/static/js/2.da51721a.chunk.js",
     "static/js/2.da51721a.chunk.js.map": "/udemy-react-input-form-events/static/js/2.da51721a.chunk.js.map",
     "index.html": "/udemy-react-input-form-events/index.html",
-    "static/css/main.e82c857d.chunk.css.map": "/udemy-react-input-form-events/static/css/main.e82c857d.chunk.css.map",
+    "static/css/main.a4fca6e6.chunk.css.map": "/udemy-react-input-form-events/static/css/main.a4fca6e6.chunk.css.map",
     "static/js/2.da51721a.chunk.js.LICENSE.txt": "/udemy-react-input-form-events/static/js/2.da51721a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c1a0ed15.js",
     "static/js/2.da51721a.chunk.js",
-    "static/css/main.e82c857d.chunk.css",
-    "static/js/main.43514f51.chunk.js"
+    "static/css/main.a4fca6e6.chunk.css",
+    "static/js/main.bfc6d100.chunk.js"
   ]
 }

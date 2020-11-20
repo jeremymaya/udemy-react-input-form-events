@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/components/ImageList.css"],"names":[],"mappings":"AAAA,YACI,YAAa,CACb,yDAA4D,CAC5D,aACJ,CAEA,gBACI,WACJ","file":"main.e82c857d.chunk.css","sourcesContent":[".image-list {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));\n    grid-gap: 10px;\n}\n\n.image-list img {\n    width: 250px;\n}"]}
